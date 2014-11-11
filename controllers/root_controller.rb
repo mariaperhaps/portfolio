@@ -1,7 +1,5 @@
 class RootController < ApplicationController
 
-  require "sinatra/json"
-
   get('/') do
     render(:erb, :index)
   end
