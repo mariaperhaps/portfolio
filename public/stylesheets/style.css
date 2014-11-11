@@ -1,0 +1,255 @@
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+
+}
+
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  font-weight: 200;
+  font-size: 20px;
+  background-color: black;
+}
+
+.parallax-background {
+  background-image: url(/images/squares.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 620px;
+  position: fixed;
+  width: 100%;
+}
+
+.intro-text {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
+}
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  top: 500px;
+  padding: 50px;
+  font-size: 20px;
+  background-color: black;
+
+}
+
+
+.large-4 {
+  margin: 1em;
+  color: black;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+h4{
+  color: black;
+  font-family: 'Anton', sans-serif;
+}
+
+
+
+h2{
+  font-family: 'Anton', sans-serif;
+  font-size: 48px;
+  opacity: .7;
+  margin-top: 12.5%;
+}
+
+.panel {
+  background-color: black;
+  color: white;
+
+}
+
+.panel h4{
+  color: whitesmoke;
+}
+
+.panel p{
+  color: whitesmoke;
+}
+
+.image-tape {
+  background-image: url("/images/tapes.png");
+  width: 283px;
+  height: 191px;
+  background-size: contain;
+  -webkit-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
+  box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
+}
+
+.overlay{
+  width: 283px;
+  height: 191px;
+  background-color: black;
+  opacity: 0;
+}
+
+.image-tape:hover .overlay{
+  opacity: .4;
+}
+
+.apps {
+  width: 283px;
+  height: 191px;
+  display: block;
+}
+
+
+.image-cat {
+  background-image: url("/images/keyboard.png");
+  width: 283px;
+  height: 191px;
+  background-size: contain;
+  -webkit-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
+  box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
+}
+
+.image-cat:hover .overlay{
+  opacity: .4;
+}
+
+.image-saga {
+  background-image: url("/images/saga.png");
+  background-size: contain;
+  -webkit-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
+  box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
+}
+
+.image-saga:hover .overlay{
+  opacity: .4;
+}
+
+
+#contact-form {
+     visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 75px;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+}
+
+
+#contact-form div {
+     width:500px;
+     margin: auto;
+     background-color: black;
+     opacity: .9;
+     border-radius: 1em;
+     padding:15px;
+     text-align:center;
+     box-shadow: 8px 7px 22px -1px rgba(0,0,0,0.75);
+     margin-top: -5px;
+}
+
+
+input {
+  margin-top: 5px;
+  margin-left: -220px;
+  font-family: 'Questrial', sans-serif;
+}
+
+textarea {
+  margin: 5px;
+  font-family: 'Questrial', sans-serif;
+}
+
+#close {
+  margin-left: 425px;
+  font-size: 12px;
+  color: #aa2eb2;
+}
+
+button {
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+p {
+  font-family: 'Questrial', sans-serif;
+}
+
+#spinner {
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  margin-left: -40px;
+  margin-top: 150px;
+}
+
+
+#thank-you{
+  visibility: hidden;
+  position: absolute;
+  margin-left: 610px;
+  margin-top: 100px;
+  color: whitesmoke;
+  font-size: 60px;
+  text-shadow: 2px 2px #000000;
+  font-family: 'Lobster', cursive;
+}
+
+#linked{
+  color: white;
+}
+
+#linked:hover{
+  color: #aa2eb2;
+}
+
+.top {
+  top: 60px;
+}
+
+#namebox{
+  position: fixed;
+  height: 50px;
+  z-index: 20;
+  width: 100%;
+  background-color: black;
+}
+
+#namebox{
+  position: fixed;
+  height: 50px;
+  z-index: 20;
+  width: 100%;
+  background-color: black;
+}
+
+#name-heading{
+  color: whitesmoke;
+  margin-left: 15px;
+  line-height: 1px;
+  margin-top: 15px;
+  font-family: 'Lobster', cursive;
+}
+
+#title {
+  color: whitesmoke;
+  margin-left: 15px;
+  line-height: 1px;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #aa2eb2;
+  font-family: 'Questrial', sans-serif;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: #aa2eb2;
+}
