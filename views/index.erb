@@ -27,15 +27,18 @@
 
   </div>
 </div>
-             <div id="contact-form">
+             <div id="myModal" class="reveal-modal medium" data-reveal>
+                <div id="spin">
                   <i id="spinner" class="fa fa-spinner fa-4x fa-spin"></i>
-                  <h1 id="thank-you">Thank You!</h1>
+                </div>
+                 <!--  <h1 id="thank-you">Thank You!</h1> -->
                  <div>
                       <input id="name" placeholder="name"></input><br/>
                       <input id="email" placeholder="email"></input><br/>
-                      <textarea id="message" placeholder="message" cols="100" rows="11"></textarea>
+                      <textarea id="message" placeholder="message" cols="100" rows="8"></textarea>
                       <button id="send">Send</button>
-                      <a id="close" href='#' onclick='overlay()'>CLOSE</a>
+                      <!-- <a id="close" href='#' onclick='overlay()'>CLOSE</a> -->
+                      <a class="close-reveal-modal">&#215;</a>
                  </div>
              </div>
 
@@ -81,6 +84,9 @@
     <div class="large-12 columns">
 
       <div class="panel">
+    <div id="end">
+     <h1 id="thank-you">Thank You!</h1>
+    </div>
         <h4>Contact Info</h4>
 
         <div class="row">
@@ -89,8 +95,10 @@
             <p><a id="linked" href="https://www.linkedin.com/in/mariatschettino/"><i class="fa fa-linkedin-square fa-2x"></i></a>&nbsp&nbsp<a id="linked" href="https://github.com/mariaperhaps"><i class="fa fa-github-square fa-2x"></i></a></p>
           </div>
           <div class="large-3 columns">
-            <a href="#" onclick='overlay()' class="radius button right">Contact Me</a>
-          </div>
+            <a href="#" data-reveal-id="myModal" class="radius button right">Contact Me</a>
+
+          <!--   <a href="#" onclick='overlay()' class="radius button right">Contact Me</a>
+          </div> -->
 
 
         </div>

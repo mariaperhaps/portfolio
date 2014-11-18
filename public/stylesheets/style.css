@@ -156,14 +156,14 @@ h2{
 
 
 input {
-  margin-top: 5px;
-  margin-left: -220px;
+  /*margin-top: 5px;
+  margin-left: -220px;*/
   font-family: 'Questrial', sans-serif;
   background-color: white;
 }
 
 textarea {
-  margin: 5px;
+  /*margin: 5px;*/
   font-family: 'Questrial', sans-serif;
 }
 
@@ -186,19 +186,19 @@ p {
   visibility: hidden;
   position: absolute;
   z-index: 10;
+  margin-top: 125px;
   margin-left: -40px;
-  margin-top: 150px;
 }
 
 
 #thank-you{
   visibility: hidden;
-  position: absolute;
+ /* position: absolute;
   margin-left: 610px;
-  margin-top: 100px;
+  margin-top: 100px;*/
   color: whitesmoke;
   font-size: 50px;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px #aa2eb2;
   font-family: 'Lobster', cursive;
 }
 
@@ -254,4 +254,23 @@ a{
 
 a:hover{
   color: #aa2eb2;
+}
+
+#email{
+  margin-bottom: 5px;
+}
+
+#end{
+  width: 25%;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: auto;
+  position: absolute;
+}
+
+#spin{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
 }

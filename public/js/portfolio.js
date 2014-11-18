@@ -1,6 +1,6 @@
 
   function overlay() {
-    el = document.getElementById("contact-form");
+    el = document.getElementsById("myModal");
     el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
   }
 
@@ -25,7 +25,11 @@ $(document).ready(function() {
         $("#thank-you").css({visibility: 'hidden'})
       }, 2000);
 
-      overlay();
+      el = document.querySelector('.reveal-modal-bg')
+      el.classList.remove('reveal-modal-bg')
+      modal = document.getElementById('myModal')
+      modal.style.visibility = "hidden"
+
       $('#name').val("");
       $('#email').val("");
       $('#message').val("");
