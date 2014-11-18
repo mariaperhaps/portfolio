@@ -40,7 +40,7 @@ body {
 
 
 .large-4 {
-  margin: 1em;
+  border: 5px solid black;
   color: black;
   padding: 5px;
   background-color: whitesmoke;
@@ -77,8 +77,8 @@ h2{
 
 .image-tape {
   background-image: url("/images/tapes.png");
-  width: 283px;
-  height: 191px;
+  width: 312px;
+  height: 215px;
   background-size: contain;
   -webkit-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
@@ -86,8 +86,8 @@ h2{
 }
 
 .overlay{
-  width: 283px;
-  height: 191px;
+  width: 312px;
+  height: 215px;
   background-color: black;
   opacity: 0;
 }
@@ -97,16 +97,16 @@ h2{
 }
 
 .apps {
-  width: 283px;
-  height: 191px;
+  width: 312px;
+  height: 215px;
   display: block;
 }
 
 
 .image-cat {
   background-image: url("/images/keyboard.png");
-  width: 283px;
-  height: 191px;
+  width: 312px;
+  height: 215px;
   background-size: contain;
   -webkit-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);

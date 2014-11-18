@@ -39,7 +39,7 @@ body {
 
 
 .large-4 {
-  margin: 1em;
+  border: 5px solid black;
   color: black;
   padding: 5px;
   background-color: whitesmoke;
