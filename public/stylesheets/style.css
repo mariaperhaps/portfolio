@@ -247,6 +247,10 @@ p {
   font-family: 'Questrial', sans-serif;
 }
 
+#title:hover {
+  color: #de3185;
+}
+
 a{
   color: black;
 }
