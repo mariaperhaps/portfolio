@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.1.2"
+ruby "2.2.2"
 
 # Gems used in every environment
 gem 'sinatra',  '1.4.5', require: 'sinatra/base'
