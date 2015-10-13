@@ -39,7 +39,7 @@ body {
 }
 
 
-.large-6 {
+.large-4 {
   border: 5px solid black;
   color: black;
   padding: 5px;
@@ -117,7 +117,7 @@ h2{
 
 .image-saga {
   width: 100%;
-  background-image: url("/images/saga.png");
+  background-image: url("/images/drums.png");
   background-size: cover;
   -webkit-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 6px 7px 15px -4px rgba(0,0,0,0.75);
